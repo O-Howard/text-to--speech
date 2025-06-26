@@ -1,0 +1,32 @@
+.voice{
+    display: flex;
+    background-color: #1E2A52;
+    border-radius: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 75%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+select {
+  background: transparent;
+  border: none; 
+  font-size: 16px;
+  color: #E3E8EF; 
+  outline: none;
+}
+
+select option {
+  background-color: #1E2A52;
+  color: #E3E8EF;
+}
+
+
+.separator {
+  width: 1px;
+  background-color: #364153;
+  height: 35px;
+  
+}
