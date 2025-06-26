@@ -13,18 +13,20 @@ function SpeedSelector({ speed, setSpeed }) {
     }
 
   return (
-    <div className="speed">
-        <p>Speed</p>
-        <div></div>
-        {speeds.map((s) => (
-            <button
+    <div>
+        <div className="speed">
+            <p>Speed</p>
+            <div className='separator'></div>
+            {speeds.map((s) => (
+                <button
                 key={s}
                 className={`speed-btn ${speed === s ? 'active' : ''}`}
                 onClick={() =>  handleClick(s)}
-            >
-                {s}x
-            </button>
-        ))}
+                >
+                    {s}x
+                </button>
+            ))}
+        </div>
     </div>
   );
 }

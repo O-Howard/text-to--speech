@@ -4,7 +4,7 @@
     border-radius: 16px;
     padding: 0 20px;
     box-sizing: border-box;
-    max-width: 75%;
+    min-width: 75%;
     justify-content: space-around;
     align-items: center;
 }
@@ -28,5 +28,4 @@ select option {
   width: 1px;
   background-color: #364153;
   height: 35px;
-  
 }
